@@ -3,8 +3,11 @@
 
     <string name="app_name">android-api</string>
     <string name="hello_world">android api(4.4)</string>
+    <!-- 图片测试 -->
     <string name="image_button">图片测试</string>
     <string name="image_view_title">图片测试</string>
+
+    <!-- 登陆测试 -->
     <string name="login_button">登陆测试</string>
     <string name="login_view_title">登陆测试</string>
     <string name="action_settings">设置</string>
@@ -12,7 +15,15 @@
     <string name="login_label_password">密码</string>
     <string name="login_username_hint">用户名</string>
 
-    <string name="title_activity_image">ImageActivity</string>
+    <!-- list测试 -->
+    <string name="list_button">列表测试</string>
+    <string name="list_title">列表测试</string>
 
+    <!-- table测试 -->
+    <string name="table_button">表格测试</string>
+    <string name="table_title">表格测试</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_list">ListActivity</string>
 
 </resources>
