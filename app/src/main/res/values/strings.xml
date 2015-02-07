@@ -22,8 +22,14 @@
     <!-- table测试 -->
     <string name="table_button">表格测试</string>
     <string name="table_title">表格测试</string>
+
+    <!-- 进程管理 -->
+    <string name="process_button">进程测试</string>
+    <string name="process_title">进程测试</string>
+
     <string name="title_activity_image">ImageActivity</string>
     <string name="title_activity_table">TableActivity</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_process">ProcessActivity</string>
 
 </resources>

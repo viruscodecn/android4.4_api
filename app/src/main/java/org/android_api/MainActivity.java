@@ -20,6 +20,7 @@ public class MainActivity extends ActionBarActivity {
         initLoginButton();
         initTabelButton();
         initListButton();
+        initProcessButton();
     }
 
     private void initCreateImageButton(){
@@ -72,6 +73,19 @@ public class MainActivity extends ActionBarActivity {
             intent.setClass(MainActivity.this,ListActivity.class);
             startActivity(intent);
         }
+    };
+
+    private void initProcessButton(){
+        Button processButton=(Button)findViewById(R.id.process_test_button);
+        processButton.setOnClickListener(processButtonOnClick);
+    }
+
+    private Button.OnClickListener processButtonOnClick=new Button.OnClickListener(){
+       public void onClick(View view){
+           Intent intent=new Intent();
+           intent.setClass(MainActivity.this,ProcessActivity.class);
+           startActivity(intent);
+       }
     };
 
     @Override

@@ -49,6 +49,10 @@
             android:name=".ListActivity"
             android:label="@string/title_activity_list" >
         </activity>
+        <activity
+            android:name=".ProcessActivity"
+            android:label="@string/title_activity_process" >
+        </activity>
     </application>
 
 </manifest>
