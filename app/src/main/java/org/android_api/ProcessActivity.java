@@ -40,7 +40,6 @@ public class ProcessActivity extends ActionBarActivity {
         listview=(ListView)findViewById(R.id.processListView);
 
         mlistAppInfo = new ArrayList<Map<String,String>>();
-
         mlistAppInfo = queryAllRunningAppInfo();
 
         //生成适配器，数组===》ListItem
@@ -53,6 +52,8 @@ public class ProcessActivity extends ActionBarActivity {
 
                 //ListItem的XML文件里面的两个TextView ID
                 new int[] {R.id.pid,R.id.processName,R.id.packageName,R.id.appLabel});
+
+        listview.setAdapter(mSchedule);
 
 
         System.out.println("=============================:"+mlistAppInfo.size());
