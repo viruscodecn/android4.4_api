@@ -18,6 +18,8 @@ public class MainActivity extends ActionBarActivity {
 
         initCreateImageButton();
         initLoginButton();
+        initTabelButton();
+        initListButton();
     }
 
     private void initCreateImageButton(){
@@ -46,7 +48,31 @@ public class MainActivity extends ActionBarActivity {
         }
     };
 
+    private void initTabelButton(){
+        Button tatbleTestButton=(Button)findViewById(R.id.tatble_test_button);
+        tatbleTestButton.setOnClickListener(tatbleTestOnClick);
+    }
 
+    private Button.OnClickListener tatbleTestOnClick=new Button.OnClickListener(){
+        public void onClick(View v){
+            Intent intent=new Intent();
+            intent.setClass(MainActivity.this,TableActivity.class);
+            startActivity(intent);
+        }
+    };
+
+    private void initListButton(){
+        Button listTestButton=(Button)findViewById(R.id.list_test_button);
+        listTestButton.setOnClickListener(listTestListener);
+    }
+
+    private Button.OnClickListener listTestListener=new Button.OnClickListener(){
+        public void onClick(View v){
+            Intent intent=new Intent();
+            intent.setClass(MainActivity.this,ListActivity.class);
+            startActivity(intent);
+        }
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
