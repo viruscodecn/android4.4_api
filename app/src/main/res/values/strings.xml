@@ -27,6 +27,28 @@
     <string name="process_button">进程测试</string>
     <string name="process_title">进程测试</string>
 
+
+    <!--通讯录测试 -->
+    <string name="contact_button">通信录测试</string>
+    <string name="contact_title">通信录测试</string>
+
+    <!--短信测试 -->
+    <string name="msg_button">短信测试</string>
+    <string name="msg_title">短信测试</string>
+
+    <!--电话测试 -->
+    <string name="phone_button">电话测试</string>
+    <string name="phone_title">电话测试</string>
+
+    <!--摄像头测试 -->
+    <string name="camera_button">摄像头测试</string>
+    <string name="camera_title">摄像头测试</string>
+
+    <!-- GPS -->
+    <string name="GPS_button">GPS测试</string>
+    <string name="GPS_title">GPS测试</string>
+
+
     <string name="title_activity_image">ImageActivity</string>
     <string name="title_activity_table">TableActivity</string>
     <string name="title_activity_list">ListActivity</string>
