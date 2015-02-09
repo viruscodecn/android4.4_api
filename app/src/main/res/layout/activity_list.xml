@@ -10,4 +10,32 @@
         android:layout_height="wrap_content"
         android:id="@+id/list_test_title" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:id="@+id/btnSaveName"
+        android:layout_marginEnd="33dp"
+        android:layout_below="@+id/list_test_title"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="输入姓名"
+        android:ems="10"
+        android:id="@+id/etxtName"
+        android:layout_alignBottom="@+id/btnSaveName"
+        android:layout_toStartOf="@+id/btnSaveName" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/etxtName"
+        android:layout_alignStart="@+id/etxtName"
+        android:layout_marginTop="19dp"
+        android:choiceMode="none" />
+
 </RelativeLayout>
